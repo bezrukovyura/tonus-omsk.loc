@@ -34,6 +34,8 @@ $(function () {
   });
 
   $(".section6 .points > div").on("click", function () {
+
+    debugger
     $(".section6 .points > div").removeClass("active");
     $(this).addClass("active");
     point = this;
@@ -47,9 +49,12 @@ $(function () {
   });
 
   $(".section3 .points1 > div").on("click", function () {
+
+    debugger
     $(".section3 .points1 > div").removeClass("active");
     $(this).addClass("active");
     point = this;
+
     $('.section3 .rightImg img').attr("src", '/img/img5_'+this.dataset.number+'.jpg');
 
   });
@@ -118,9 +123,6 @@ $(function () {
   });
   
 
-
-
-
   function initComparisons() {
     var x, i;
     x = document.getElementsByClassName("img-comp-overlay");
@@ -174,11 +176,4 @@ $(function () {
 
   initComparisons();
 
-
-
-
-
-
-
- 
 });

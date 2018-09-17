@@ -165,13 +165,14 @@ function  pSection3($title, $addTitle) {
 // секция 4
 $section4_title = "Кто проводит процедуру";
 
-$section4_card1_name = "Ольга Зинченко";
-$section4_card1_add = "Врач-косметолог.  Опыт работы — 4 года.";
-$section4_card1_history = "<div>Опыт работы более 10 лет, обучение в Китае массажным техникам по лицу и голове, обучение и работа в Москве по депиляциям(воск и шугаринг), большой опыт работы с мезопрепаратами,процедуры биоревитализации и плазмолифтинга.</div>";
+$section4_card1_name = "Ольга Иванова";
+$section4_card1_add = "Косметолог.  Опыт работы — 10 лет.";
+$section4_card1_history = "<div>Обучение в Китае массажным техникам по лицу и голове, обучение и работа в Москве по депиляциям(воск и шугаринг). 
+<br><br>Большой опыт работы с мезопрепаратами, процедуры биоревитализации и плазмолифтинга.</div>";
 $section4_card1_photo = "/img/img6.jpg";
 
 
-$section4_card2_name = "Юлия Емельяненко";
+$section4_card2_name = "Юлия Зинченко";
 $section4_card2_add = "Врач-косметолог.  Опыт работы — 4 года.";
 $section4_card2_history = "<div>2005-2011— Омск. ОмГMA. Лечебный факультет.</div><div>2011-2012 — Омск. ОмГMA. Интернатура. Кафедра дерматологии и венерологии.</div><div>2012-2013 — Москва. Российский университет дружбы народов (РУДН).  Кафедра косметологии.</div>";
 $section4_card2_photo = "/img/img6_.jpg";
@@ -279,7 +280,6 @@ function section6Img($arr) {
 	}
 	echo $h;
 }
-
 //section 7
 $section7_title = "Отзывы о клинике";
 $section7_flamp = '<a class="flamp-widget" href="//omsk.flamp.ru/firm/tonus_ozdorovitelnyjj_klub-2820032.." data-flamp-widget-type="responsive-new" data-flamp-widget-id="282003257804079" data-flamp-widget-width="100%" data-flamp-widget-count="1">Отзывы о нас на Флампе</a><script>!function(d,s){var js,fjs=d.getElementsByTagName(s)[0];js=d.createElement(s);js.async=1;js.src="//widget.flamp.ru/loader.js";fjs.parentNode.insertBefore(js,fjs);}(document,"script");</script>';

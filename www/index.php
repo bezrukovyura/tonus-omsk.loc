@@ -11,12 +11,13 @@
 <head>
 	<title>Wellness-клуб TONUS | Омск</title>
 	<meta charset="utf-8">
-	<link rel="shortcut icon" href="icon.png" type="image/png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://unpkg.com/reset-css@4.0.1/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDClSNMkwupXdNdEaP_j2cXJnGPabmJI-E"></script>
 	<script src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=7643f430d21c0fbed31e6e8f5b12d904" charset="UTF-8" async></script>
 </head>
 
 <body>
