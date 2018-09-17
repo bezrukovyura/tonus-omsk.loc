@@ -1,0 +1,70 @@
+.section8 {
+  .close {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  overflow: hidden;
+  .circle {
+    height: 640px;
+    width: 500px;
+    float: left;
+    position: relative;
+    .circle {
+      width: 480px;
+      height: 480px;
+      background: #FCFEFF;
+      border-radius: 500px;
+      position: absolute;
+      .shadow(0 23px 80px #efefef);
+    }
+    .circlePhoto {
+      width: 360px;
+      height: 360px;
+      border-radius: 500px;
+      overflow: hidden;
+      position: absolute;
+      top: 60px;
+      left: 60px;
+    }
+  }
+  .inform {
+    float: left;
+    width: calc(~'100% - 520px');
+    margin: 60px 0 0 20px;
+    .question {
+      background: #f5fcff;
+      margin: 20px 0 0 0;
+      padding: 30px 50px 30px 35px;
+      position: relative;
+      font-size: 16px;
+      cursor: pointer;
+      * {
+        transition: 1s;
+      }
+    }
+    .lock {
+      position: absolute;
+      right: 20px;
+      cursor: pointer;
+    }
+    .title {
+      font-weight: 900;
+      font-size: 18px;
+      font-family: 'PT Sans';
+    }
+    .addText {
+      font-size: 16px;
+      line-height: 25px;
+      font-family: 'PT Sans';
+      margin: 15px 0 0 0;
+    }
+  }
+  .img {
+    position: absolute;
+    bottom: 0px;
+    height: 133px;
+    width: 370px;
+    overflow: hidden;
+  }
+}

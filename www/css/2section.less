@@ -1,0 +1,203 @@
+.section2 {
+    background: #fafcff;
+
+
+    .wrapper {
+        margin: 0 auto 0 auto;
+        padding: 63px 0 0 0;
+        min-height: 1000px;
+
+        .leftImg {
+            .circleGreen {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                left: -61px;
+                border-radius: 30px;
+                border: 10px solid @green;
+            }
+
+            .circleWhite {
+                position: absolute;
+                width: 500px;
+                height: 500px;
+                top: -147px;
+                left: -144px;
+                border-radius: 600px;
+                .gradient(top, @grey, white);
+                .shadow(0 18px 43px #efefef);
+            }
+
+            position: relative;
+            max-width: 720px;
+
+            .photoCircleMain {
+                height: 380px;
+                width: 380px;
+                left: 14px;
+            }
+
+            .title {
+                left: 361px;
+                top: 22px;
+                font-size: 19px;
+                position: absolute;
+                font-weight: 900;
+            }
+
+            .item {
+                position: absolute;
+
+                .circle {
+                    border-radius: 300px;
+                    border: 1px solid #fff;
+                    position: absolute;
+                }
+
+                .line {
+                    height: 2px;
+                    position: absolute;
+                    .gradient(right, #909090, #fff);
+                }
+
+                .point {
+                    position: absolute;
+                    width: 4px;
+                    height: 4px;
+                    border-radius: 4px;
+                    background: @grey_text;
+                }
+
+                .text {
+                    position: absolute;
+                    width: 270px;
+                    font-size: 14px;
+                }
+
+                .megaLine(@circleRadius, @line_width, @top, @left) {
+                    @line_top: @circleRadius / 2;
+                    top: @top;
+                    left: @left;
+
+                    .circle {
+                        width: @circleRadius;
+                        height: @circleRadius;
+                    }
+
+                    .line {
+                        width: @line_width;
+                        left: @circleRadius + 1;
+                        top: @line_top;
+                    }
+
+                    .point {
+                        top: @circleRadius / 2 - 1;
+                        left: @circleRadius + @line_width;
+                    }
+
+                    .text {
+                        top: @circleRadius / 2 - 8;
+                        left: @circleRadius + @line_width + 12;
+                    }
+                }
+
+                &:nth-child(1) {
+                    .megaLine(20px, 239px, 65px, 142px);
+                }
+
+                &:nth-child(2) {
+                    .megaLine(35px, 110px, 110px, 270px);
+                }
+
+                &:nth-child(3) {
+                    .megaLine(20px, 180px, 170px, 230px);
+                }
+
+                &:nth-child(4) {
+                    .megaLine(25px, 135px, 220px, 260px);
+                }
+
+                &:nth-child(5) {
+                    .megaLine(20px, 150px, 280px, 230px);
+                }
+            }
+        }
+
+        .textBlocks {
+            .item {
+                float: left;
+                background: white;
+                padding: 23px 34px;
+                margin: 0 0 0 740px;
+                .shadow(0 0 8px #f1f1f1);
+
+                .title {
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+
+                .list {
+                    margin: 12px 0 0 0;
+
+                    .str {
+                        line-height: 29px;
+                        position: relative;
+                        padding: 0 0 0 17px;
+                        font-size: 16px;
+                        letter-spacing: -0.7px;
+
+                        &:before {
+                            content: "";
+                            display: block;
+                            background: @blue;
+                            height: 5px;
+                            width: 5px;
+                            border-radius: 14px;
+                            position: absolute;
+                            top: 14px;
+                            left: -2px;
+                        }
+                    }
+                }
+
+                &:nth-child(2) {
+                    width: 329px;
+                    margin: 30px 0 0 740px;
+                }
+
+                &:nth-child(3) {
+                    width: 329px;
+                    margin: -219px 0 0 310px;
+                }
+
+                &:nth-child(4) {
+                    width: 329px;
+                    margin: 30px 0 0 310px;
+                }
+            }
+        }
+
+
+        .circleBig1 {
+            position: absolute;
+            height: 130px;
+            width: 130px;
+            border-radius: 300px;
+            background: #FAFCFE;
+            bottom: 400px;
+            left: 67px;
+            .shadow(0 13px 50px #ececec);
+        }
+
+        .circleBig2 {
+            .circleBig1;
+            bottom: -46px;
+            left: -180px;
+            height: 350px;
+            width: 350px;
+            .shadow(0 20px 80px #e8e8e8);
+            //.gradient(top, #fbfbfb, white);
+            background: #FBFDFF;
+        }
+    }
+}
