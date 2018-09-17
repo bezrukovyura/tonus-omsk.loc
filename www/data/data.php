@@ -258,11 +258,11 @@ $section6_photo = "/img/img7.jpg";
 $section6_batton = "Отправить";
 
 $section6_imgs = array(
-  array("https://img-fotki.yandex.ru/get/29256/30348152.1f2/0_8d6b8_f47d11c1_orig", "http://spb2018.com/media/ckuploads/2016/11/10/2523_fotorama_image.jpg"),
-  array("https://img-fotki.yandex.ru/get/29256/30348152.1f2/0_8d6b8_f47d11c1_orig", "http://spb2018.com/media/ckuploads/2016/11/10/2523_fotorama_image.jpg"),
-  array("https://img-fotki.yandex.ru/get/29256/30348152.1f2/0_8d6b8_f47d11c1_orig", "http://spb2018.com/media/ckuploads/2016/11/10/2523_fotorama_image.jpg"),
-  array("https://img-fotki.yandex.ru/get/29256/30348152.1f2/0_8d6b8_f47d11c1_orig", "http://spb2018.com/media/ckuploads/2016/11/10/2523_fotorama_image.jpg"),
-  array("https://img-fotki.yandex.ru/get/29256/30348152.1f2/0_8d6b8_f47d11c1_orig", "http://spb2018.com/media/ckuploads/2016/11/10/2523_fotorama_image.jpg")
+  array("/img/compare/1_0.png", "/img/compare/1_1.png"),
+  array("/img/compare/2_0.png", "/img/compare/2_1.png"),
+  array("/img/compare/3_0.png", "/img/compare/3_1.png"),
+  array("/img/compare/4_0.png", "/img/compare/4_1.png"),
+
 );
 
 function section6Img($arr) {
