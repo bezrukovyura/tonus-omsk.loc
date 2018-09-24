@@ -198,6 +198,9 @@
 				section4($section4_card2_photo, $section4_card2_name, $section4_card2_add, $section4_card2_history, 2, 'y', 10); 
 			?>
 			</div>
+			<div class="textOfferta">
+				Бесплатная консультация косметолога перед проведением  процедуры
+			</div>
 			<div class="svgs">
 				<img src="/img/img1.png" />
 			</div>

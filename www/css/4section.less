@@ -111,10 +111,29 @@
 
     .svgs {
         width: 320px;
-        margin: 25px auto 0 auto;
-
+        margin: 0 0 -45px auto;
         img {
             width: 100%;
+        }
+    }
+
+    .textOfferta {
+        font-size: 17px;
+        max-width: 600px;
+        font-weight: 500;
+        margin: 65px auto;
+        position: relative;
+    
+        &:before {
+            content: "";
+            width: 9px;
+            height: 9px;
+            top: 3px;
+            left: -17px;
+            border-radius: 20px;
+            background: #36DFB6;
+            position: absolute;
+            display: block;
         }
     }
 }
