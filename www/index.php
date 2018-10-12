@@ -218,7 +218,7 @@
 		<div class="additional">
 			<?php p($section5_addition); ?>
 		</div>
-		<div class="wrapper">
+		<div class="wrapper nonActive">
 			<?php section5Table($section5_arr); ?>
 		</div>
 	</div>

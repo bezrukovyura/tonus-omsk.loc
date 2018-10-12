@@ -98,6 +98,8 @@ $(function () {
   });
   });
 
+  $(".nonActive").on("click", function () { $(".nonActive").removeClass("nonActive"); });
+
   $("div.phoneAction2").on("click", function() {
   text = $("input.phoneAction2").val();
   text = text.replace(/[^-0-9]/gim,'');
