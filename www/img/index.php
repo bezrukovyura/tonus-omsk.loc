@@ -9,17 +9,7 @@
 <html lang="ru">
 
 <head>
-	<title>Биоревитализация | Wellness-клуб TONUS Омск</title>
-    <meta name="description" content="Биоревитализация —  инъекционные процедуры для лица. Коррекция косметических недостатков кожи путем насыщения ее глубоких слоев гиалуроновой кислотой"/>
-  <meta name="robots" content="noodp"/>
-<link rel="canonical" href="https://biorevitalizatsiya.tonus-omsk.ru/" />
-<meta property="og:locale" content="ru_RU" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Биоревитализация | Wellness-клуб TONUS Омск" />
-<meta property="og:description" content="Биоревитализация —  инъекционные процедуры для лица. Коррекция косметических недостатков кожи путем насыщения ее глубоких слоев гиалуроновой кислотой" />
-<meta property="og:url" content="https://biorevitalizatsiya.tonus-omsk.ru/" />
-<meta property="og:site_name" content="Wellness-клуб TONUS Омск" />
-    <link rel="icon" href="/img/fav.png">
+	<title>Wellness-клуб TONUS | Омск</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://unpkg.com/reset-css@4.0.1/reset.css">
@@ -28,36 +18,7 @@
 	<script src="js/script.js"></script>
   <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
 <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=7643f430d21c0fbed31e6e8f5b12d904" charset="UTF-8" async></script>
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter45432372 = new Ya.Metrika({
-                    id:45432372,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true,
-                    trackHash:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/45432372" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter --></head>
+</head>
 
 <body>
 
@@ -97,10 +58,7 @@
 						<?php p($topMenu_address); ?>
 					</div>
 					<div class="phone">
-					<?php p($topMenu_phone); ?>
-					</div>
-                  <div class="phone">
-					<?php p($topMenu_phone1); ?>
+						<?php p($topMenu_phone); ?>
 					</div>
 					<a href="#callbackwidget" class="batton">
 						<?php p($topMenu_btnText); ?>
@@ -170,6 +128,7 @@
 					<?php twoSectionDescription($section2_description); ?>
 				</div>
 			</div>
+			<img src="img/img3.svg" style="position:absolute;top:412px;left:288px">
 			<img src="img/img4.svg" style="position:absolute;top:837px;left:707px">
 			<div class="textBlocks">
 				<?php
@@ -243,7 +202,7 @@
 				Бесплатная консультация косметолога перед проведением  процедуры
 			</div>
 			<div class="svgs">
-				<img src="/img/img11.svg" />
+				<img src="/img/img1.png" />
 			</div>
 		</div>
 	</div>
@@ -302,7 +261,7 @@
 			<div class="_wrapSecond">
 				<div class="text">
 					<div class="title">Фото наших клиентов до и после</div>
-					<img src="img/img111.svg" alt="">
+					<img src="img/img2.png" alt="">
 				</div>
 				<div class="slider">
 					<div class="wrapSlider"><?php section6Img($section6_imgs); ?></div>
@@ -382,7 +341,7 @@
 					<img src="img/img8.png" alt="">
 				</div>
 				<div class="img">
-					<img style="padding: 6px 56px; width: 322px;" src="/img/img05.svg" alt="">
+					<img style="padding: 6px 56px;" src="/img/img05.svg" alt="">
 				</div>
 			</div>
 
@@ -476,6 +435,7 @@
 					<a href="">Биоревитализация</a>
 					<a href="">Плазмолифтинг</a>
 					<a href="">Диспорт</a>
+					<a href="">Ботокс</a>
 					<a href="">Филлер</a>
 					<a href="">Контурная пластика</a>
 				</div>
@@ -507,16 +467,7 @@
 						<div class="icon">
 							<img src="/img/footer/phone.png" alt="">
 						</div>
-						<div class="text bold" style="margin: 0 0 5px 0;"><a href="tel:+73812453518">+7 (3812) 45 35 18</a></div>
-                      	</div>
-                      <div class="string">
-						<div class="icon">
-							<img src="/img/footer/phone.png" alt="">
-						</div>
-                      <div class="text bold" style="margin: 0 0 5px 0;"><a href="tel:+79087979497" >+7 (908) 797-94-97</a></div>
-					
-
-                   
+						<div class="text bold" style="margin: 0 0 5px 0;">+7 (3812) 45 35 18</div>
 					</div>
 
 
@@ -558,8 +509,8 @@
 		<div class="copy">
 
 			<div class="age">2010-2018</div>
-            <div class="licen"><a target="blank"  href="https://tonus-omsk.ru/wp-content/uploads/2017/03/litsenzia_1.jpg" class="text blue">Лицензия на осуществление медицинской деятельности</a></div>
-			<a target="blank"  href="https://weare31.com/">
+			<div class="licen">Лицензия на осуществление медицинской деятельности</div>
+			<a target="blank" class="author" href="https://weare31.com/">
 				Создание сайта:
 				<font> 31</font>
 			</a>
