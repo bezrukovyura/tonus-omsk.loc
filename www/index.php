@@ -97,12 +97,16 @@
 						<?php p($topMenu_address); ?>
 					</div>
 					<div class="phone">
+					<a href="tel:<?php p($topMenu_phone_href); ?>"> 
 					<?php p($topMenu_phone); ?>
+					</a>
 					</div>
-                  <div class="phone">
-					<?php p($topMenu_phone1); ?>
+          <div class="phone">
+						<a href="tel:<?php p($topMenu_phone1_href); ?>"> 
+						<?php p($topMenu_phone1); ?>
+						</a>
 					</div>
-					<a href="#callbackwidget" class="batton">
+					<a href="#callbackwidget" class="batton aBtnSmall">
 						<?php p($topMenu_btnText); ?>
 					</a>
 				</div>

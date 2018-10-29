@@ -33,7 +33,9 @@
   $topMenu_logo = "Wellness-клуб <b>TONUS</b>";
   $topMenu_address = "г. Омск, ул. Серова, 16Б";
   $topMenu_phone = "+7 (3812) 45 35 18";
+  $topMenu_phone_href = "+73812453518";
   $topMenu_phone1 = "+7 (908) 797-94-97";
+  $topMenu_phone1_href = "+79087979497";
   $topMenu_btnText = "ЗАПИСАТЬСЯ";
 
   $header_title = "Биоревитализация — инъекционные процедуры для лица";
