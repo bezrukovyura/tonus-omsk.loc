@@ -5,3 +5,5 @@ www/mail.php
 .vscode/
 
 *.css
+node_modules/
+package-lock.json

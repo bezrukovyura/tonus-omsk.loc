@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "name": "tonus-omsk",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "latest",
+    "less": "latest",
+    "gulp-less": "latest",
+    "less-plugin-autoprefix": "latest"
+  }
+}
